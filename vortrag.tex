@@ -7,9 +7,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 
-\title{OpenStreetMap - Die freie Weltkarte nutzen} 
+\title{OpenStreetMap - Die freie Weltkarte} 
 \author{Michael Maier \textless Michael.Maier@student.tugraz.at\textgreater} 
-\date{13. Jänner 2014} 
+\date{9. April 2014} 
 
 \usetheme{Antibes}
 
@@ -43,72 +43,8 @@
 \end{frame}
 
 
-% Zielgruppe
-% * Google, Konkurrenten
-% * Landes-GISler
-% * Firmen
-
-% Wichtig:
-% Quality Assurance
-% * Es gibt automatische Q/A-Tools
-% * kaum Streitfälle - wenn dann Mailinglist, Data Working Group
-%    Mapper mittels eingebauten Social Networks direkt kontaktieren
-% * 
-% tolle Bilder herzeigen!
-% * irgendein Zoo
-% * 3D
-% * Tolle Kartenstile:
-%     * OSM-Fr?
-%     * stamen watercolor
-%     * pistemap
-%     * bicycle map
-%     * OpenSeaMap
-%
-% Dokumentation (nenne es doku und nicht Wiki → verwirrent) -OK
-% wenn wo doku fehlt, selber mitschreiben?
-
-% Vorteile
-% * aktuell!
-%   wenn nicht aktuell: OSM Verbessern!
-%  - JEDE Karte ist in dem Moment veraltet, wo sie gedruckt wurde...
-%  - impressive Number: changesets/day - oder sekunde/minute  -OK
-    % changeset 19980639 an  13 Jan 2014 22:59:23
-    % 16561091 an 15 Jun 2013 11:10:25
-    % = 3419548 in 208d = 16500/d = 685/h = 12/Minute
-    % oder 2M nodes/day dazu
-%
-% * 100e verschiedene Kartenstile 
-%   den eigenen leichtgemacht mit Tilemill
-% * Datenversionierung! -OK
-% * Language-Independent -OK
-%   show http://toolserver.org/~osm/locale/ru.html
-% * jetzt in 3D!
-% switch2osm net vergessen! -OK
-% HOT Team nicht vergessen! → zu geschichtliches
-
-% Dienst: Geocoder!
-% Dienste: Routing!
-
-% * kurze OSM-Vorstellung, Geschichtliches, Motivation -OK
-% * Technogie, Datenmodell, Lizenz -OK
-% * OSM Nutzen: Rohdaten, Web-Dienste, Apps
-
-% 3
-% Rohdaten
-%   link zu jedem item
-%   export als svg/osm.org
-%   download von planet / shapefiles geofabrik
-%   overpass (turbo)
-% web-dienste
-%   eigene kartenstile machbar
-%      Tilemill
-%      einige karten vorstellen 
-%      Language-Independent
-%   Geocoder
-%   Notes-Feature
-%   Web-Editor
-
 \section{Einleitung}
+
 
 \begin{frame}{Vorstellung}
 
@@ -116,18 +52,20 @@
     \item Michael Maier \textless \href{mailto:Michael.Maier@student.tugraz.at}{Michael.Maier@student.tugraz.at}\textgreater
     \item Student an der TU Graz (Telematik)
 \vspace{0.3cm}
+    \item Linux-User (Debian/grml) seit 2004
+    \item Organisiere Grazer Linuxtage seit 2011 mit
     \item OpenStreetMap als Hobby seit Juli 2010
     \item Leite den Grazer OSM-Stammtisch seit Mai 2011
 \vspace{0.3cm}
     \item Vorträge und Workshops zum Thema OSM seit 2012
     \item Freiberuflich OSM-Aufträge und Consulting
-%    \begin{itemize}
-%      \item OSM-username: \emph{\href{http://www.openstreetmap.org/user/species}{species}}
-%      \item Mapping-area Graz, Leoben on bicycle, motorbike or on public transport
-%    \end{itemize}
+    \begin{itemize}
+      \item OSM-username: \emph{\href{http://www.openstreetmap.org/user/species}{species}}
+      \item Github-Account: \emph{\href{https://github.com/species}{species}}
+      \item Twitter-Account: \emph{\href{https://twitter.com/osmgraz}{@osmgraz}}
+    \end{itemize}
   \end{itemize}
 \end{frame}
-
 
 
 % Folien zu
@@ -598,16 +536,6 @@ Standards werden im Wiki festgelegt, siehe \href{http://wiki.openstreetmap.org/w
 
 \end{frame}
 
-\begin{frame}{Vorteile Datenmodell}
-
-Durch die Vielfalt an Daten in der Datenbank wird aus der OSM nicht nur eine Karte, sondern viele!
-
-\url{http://www.openwhatevermap.org/}
-\begin{center}
-\includegraphics[height=5cm]{style-whatever.png}
-\end{center}
-
-\end{frame}
 
 \hypersetup{urlcolor=cyan}
 
@@ -647,12 +575,6 @@ Alle Standards möglichst offen:
 
 \end{frame}
 
-\begin{frame}{Lokalisierte Karten :\hfill\href{http://toolserver.org/~osm/locale/ru.html}{toolserver.org/~osm/locale/ru.html}}
-\begin{center}
-\vspace{-1cm}
-\includegraphics[height=6.5cm]{style-russ.png}
-\end{center}
-\end{frame}
 
 \hypersetup{urlcolor=blue}
 
@@ -755,7 +677,7 @@ Wie das funktioniert $\Rightarrow$ Workshop Nachmittags
    \item  Android ( \textgreater 80) \url{http://wiki.osm.org/Android}
    \item  iPhone ( \textgreater 60 )  \url{http://wiki.osm.org/Apple\_iOS}
    \item  Blackberry ( 8 ) \url{http://wiki.osm.org/BlackBerry\_OS}
-   \item  Windows Phone ( 13 ) \url{http://wiki.osm.org/Windows\_Phone}
+   \item  Windows Phone ( 13 ) \href{http://wiki.osm.org/Windows\_Phone}{wiki.osm.org/Windows\_Phone}
  \end{itemize}
  
  \begin{center}
